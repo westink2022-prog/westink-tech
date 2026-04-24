@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WESTINK TECH SOLUTIONS | Elite Technical & Digital Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; background-color: #ffffff; color: #0f172a; }
+        h1, h2, h3 { font-weight: 800; tracking: -0.02em; }
+        .bronze-text { color: #cd7f32; }
+        .bronze-bg { background-color: #cd7f32; }
+        
+        .elite-hero {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.98) 20%, rgba(15, 23, 42, 0.7) 100%), 
+            url('https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover; background-position: center;
+        }
+
+        .cyber-banner {
+            background: linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.6)), 
+            url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=1200');
+            background-size: cover; background-position: center;
+        }
+
+        .item-card { transition: all 0.3s ease; border: 1px solid #f1f5f9; background: white; height: 100%; display: flex; flex-direction: column; }
+        .item-card:hover { transform: translateY(-3px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05); border-color: #cd7f32; }
+        input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+    </style>
+</head>
+<body class="bg-white">
+
+    <div class="bg-slate-900 text-slate-400 py-2 px-6 text-[10px] flex justify-between items-center tracking-[0.2em] font-bold">
+        <div class="flex gap-6">
+            <span>📧 WESTINK2022@GMAIL.COM</span>
+            <span class="text-green-500 uppercase">Nairobi • Kitengela</span>
+        </div>
+        <div class="text-white uppercase font-black">0710 896 637 | 0100 898 976</div>
+    </div>
+
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-slate-900 text-white rounded flex items-center justify-center font-bold text-xs uppercase">W</div>
+                <div>
+                    <h1 class="text-sm font-black leading-none tracking-tighter uppercase">WESTINK TECH SOLUTIONS</h1>
+                    <p class="text-[9px] text-slate-400 font-bold tracking-widest uppercase">Technical & Digital Hub</p>
+                </div>
+            </div>
+            <div class="hidden lg:flex space-x-8 text-[10px] font-extrabold uppercase tracking-widest text-slate-400">
+                <a href="#mounting" class="hover:text-slate-900 transition">Installations</a>
+                <a href="#inventory" class="hover:text-slate-900 transition">Inventory</a>
+                <a href="#cyber" class="hover:text-slate-900 transition">Cyber Services</a>
+                <a href="#quote" class="hover:text-slate-900 transition">Estimator</a>
+            </div>
+            <a href="https://wa.me/254710896637" class="bg-slate-900 text-white px-5 py-2 rounded text-[10px] font-bold uppercase tracking-widest hover:bronze-bg transition">WhatsApp Shop</a>
+        </div>
+    </nav>
+
+    <header class="elite-hero relative min-h-[40vh] flex items-center px-6 text-white">
+        <div class="max-w-7xl mx-auto w-full">
+            <p class="bronze-text font-bold text-[10px] uppercase tracking-[0.4em] mb-4">Westink Tech Solutions</p>
+            <h1 class="text-4xl md:text-6xl mb-8 font-black leading-none tracking-tighter uppercase">
+                Technical Precision. <br>
+                <span class="text-slate-400 font-light italic text-3xl md:text-5xl">Digital Empowerment.</span>
+            </h1>
+        </div>
+    </header>
+
+    <section id="inventory" class="py-16 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-12 text-center md:text-left">
+                <h2 class="text-3xl font-bold text-slate-950 mb-2 uppercase tracking-tight">Product Showroom</h2>
+                <div class="h-1 w-12 bronze-bg mb-4 mx-auto md:mx-0"></div>
+                <p class="text-slate-400 text-[10px] font-bold uppercase tracking-widest">Premium Inventory & Authentic Brands</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                
+                <div class="space-y-6">
+                    <h3 class="text-xs font-black bronze-text uppercase tracking-[0.2em] border-l-2 border-slate-900 pl-3">Entertainment & Gaming</h3>
+                    <div class="item-card p-6 rounded-2xl">
+                        <img src="HClV8inawAMdcxY.jfif" class="h-40 w-full object-contain mb-6">
+                        <h4 class="text-sm font-black uppercase">Smart TVs & Home Theatre</h4>
+                        <p class="text-[11px] text-slate-500 mt-2 leading-relaxed">Vitron/TCL 4K QLED, Soundbars, Android TV Boxes, and PS5 Gaming Consoles.</p>
+                        <div class="mt-auto pt-6">
+                            <button onclick="inquire('Entertainment systems')" class="text-[10px] font-black bronze-text uppercase tracking-widest">View Collection &rarr;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-xs font-black bronze-text uppercase tracking-[0.2em] border-l-2 border-slate-900 pl-3">Office & Computing</h3>
+                    <div class="item-card p-6 rounded-2xl">
+                        <img src="WhatsApp Image 2026-04-13 at 08.51.42.jpeg" class="h-40 w-full object-contain mb-6">
+                        <h4 class="text-sm font-black uppercase">Computers & Printing</h4>
+                        <p class="text-[11px] text-slate-500 mt-2 leading-relaxed">HP/Dell Laptops, All-in-One PCs, Epson EcoTank Printers, and Portable Storage Solutions.</p>
+                        <div class="mt-auto pt-6">
+                            <button onclick="inquire('Computing and Office Tech')" class="text-[10px] font-black bronze-text uppercase tracking-widest">View Collection &rarr;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-xs font-black bronze-text uppercase tracking-[0.2em] border-l-2 border-slate-900 pl-3">Security & Appliances</h3>
+                    <div class="item-card p-6 rounded-2xl">
+                        <img src="WhatsApp Image 2026-04-22 at 08.10.33.jpeg" class="h-40 w-full object-contain mb-6">
+                        <h4 class="text-sm font-black uppercase">Smart Home & Kitchen</h4>
+                        <p class="text-[11px] text-slate-500 mt-2 leading-relaxed">Tenda Security Cameras, Baby Monitors, and Premium Modern Kitchen Appliances.</p>
+                        <div class="mt-auto pt-6">
+                            <button onclick="inquire('Home Security and Appliances')" class="text-[10px] font-black bronze-text uppercase tracking-widest">View Collection &rarr;</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="cyber" class="py-24 px-6 cyber-banner text-white">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 items-center">
+            <div class="md:w-3/5">
+                <h2 class="text-4xl font-black uppercase tracking-tighter mb-6">Official Digital <br><span class="bronze-text">Portal Solutions</span></h2>
+                <p class="text-slate-300 text-xs font-bold uppercase tracking-widest leading-loose mb-10">Professional guidance for all Government of Kenya digital services and portal compliance.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="bg-white/5 backdrop-blur-xl p-5 border-l-2 border-white hover:bg-white/10 transition cursor-default">
+                        <span class="text-[10px] font-black uppercase tracking-widest">KRA Returns & PIN</span>
+                    </div>
+                    <div class="bg-white/5 backdrop-blur-xl p-5 border-l-2 border-white hover:bg-white/10 transition cursor-default">
+                        <span class="text-[10px] font-black uppercase tracking-widest">e-Citizen & NTSA</span>
+                    </div>
+                    <div class="bg-white/5 backdrop-blur-xl p-5 border-l-2 border-white hover:bg-white/10 transition cursor-default">
+                        <span class="text-[10px] font-black uppercase tracking-widest">Good Conduct / SHA</span>
+                    </div>
+                    <div class="bg-white/5 backdrop-blur-xl p-5 border-l-2 border-white hover:bg-white/10 transition cursor-default">
+                        <span class="text-[10px] font-black uppercase tracking-widest">Business Registrations</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-2/5 flex flex-col items-center">
+                <div class="w-32 h-32 border-2 border-white/20 rounded-full flex items-center justify-center animate-pulse mb-6">
+                    <span class="text-[9px] font-black bronze-text uppercase tracking-[0.3em]">24/7 Digital</span>
+                </div>
+                <a href="https://wa.me/254710896637" class="bg-white text-slate-900 px-8 py-4 rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-slate-100 transition">Online Portal Support</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="py-20 px-6 bg-slate-950">
+        <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="text-center md:text-left">
+                <h2 class="text-3xl font-bold text-white mb-4 uppercase">Installation Estimator</h2>
+                <p class="text-slate-400 text-[10px] mb-10 uppercase tracking-widest">Professional wall mounting starting from Ksh 50 per inch</p>
+                <input type="number" id="tvSize" placeholder="Screen Size (Inches)" class="w-full bg-transparent border-b border-slate-800 pb-4 text-4xl font-bold text-white focus:outline-none focus:border-bronze-bg placeholder:text-slate-800" oninput="calculatePrice()">
+            </div>
+            <div class="bg-white p-10 rounded-3xl shadow-2xl text-center">
+                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Professional Service Fee</p>
+                <h4 id="displayPrice" class="text-6xl font-black text-slate-900 mb-10 tracking-tighter">Ksh 0</h4>
+                <button onclick="bookMounting()" class="bronze-bg text-white w-full py-5 rounded-xl font-black text-[11px] uppercase tracking-widest hover:opacity-90 transition">Confirm Booking</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 px-6 bg-white border-t border-slate-100 text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-10">
+                <div class="w-12 h-12 bg-slate-900 text-white rounded-xl flex items-center justify-center font-bold text-xl mx-auto mb-6">W</div>
+                <h4 class="text-sm font-black text-slate-900 uppercase tracking-[0.4em]">Westink Tech Solutions</h4>
+                <div class="h-1 w-12 bronze-bg mx-auto mt-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-[11px] font-bold uppercase tracking-widest text-slate-500 mb-16">
+                <div>
+                    <h5 class="text-slate-900 mb-4 underline decoration-bronze-bg underline-offset-8">Region</h5>
+                    <p>Nairobi • Kitengela • Kajiado</p>
+                    <p class="mt-2 text-[10px]">Kenya Headquarters</p>
+                </div>
+                <div>
+                    <h5 class="text-slate-900 mb-4 underline decoration-bronze-bg underline-offset-8">Hotlines</h5>
+                    <p class="text-slate-950">0710 896 637</p>
+                    <p class="text-slate-950 mt-1">0100 898 976</p>
+                </div>
+                <div>
+                    <h5 class="text-slate-900 mb-4 underline decoration-bronze-bg underline-offset-8">Inquiries</h5>
+                    <p class="bronze-text">WESTINK2022@GMAIL.COM</p>
+                    <p class="mt-2">Mon - Sat: 0800 - 1900</p>
+                </div>
+            </div>
+
+            <div class="pt-10 border-t border-slate-50 text-[10px] font-black uppercase tracking-[0.4em] text-slate-300">
+                <p>&copy; 2026 WESTINK TECH SOLUTIONS | PRECISION • COMPLIANCE • EXCELLENCE</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function calculatePrice() {
+            const size = document.getElementById('tvSize').value;
+            const display = document.getElementById('displayPrice');
+            if(!size || size <= 0) { display.innerText = "Ksh 0"; return; }
+            let price = size * 50; 
+            display.innerText = "Ksh " + price.toLocaleString();
+        }
+        function bookMounting() {
+            const size = document.getElementById('tvSize').value;
+            const text = size > 0 ? `Hello Westink Tech Solutions, I would like to book a mounting service for my ${size}-inch TV.` : 'Hello Westink Tech Solutions, I am interested in your TV mounting services.';
+            window.location.href = `https://wa.me/254710896637?text=${encodeURIComponent(text)}`;
+        }
+        function inquire(category) {
+            window.location.href = `https://wa.me/254710896637?text=${encodeURIComponent('Hi Westink Tech Solutions, I am interested in your ' + category + ' available in the showroom.')}`;
+        }
+    </script>
+</body>
+</html>
